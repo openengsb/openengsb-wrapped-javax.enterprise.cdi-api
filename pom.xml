@@ -23,17 +23,15 @@
   <parent>
     <groupId>org.openengsb.wrapped</groupId>
     <artifactId>openengsb-wrapped-parent</artifactId>
-    <version>7</version>
+    <version>8</version>
   </parent>
 
   <properties>
     <cdi.version>1.1-20120918</cdi.version>
     <bundle.symbolicName>javax.enterprise.cdi-api</bundle.symbolicName>
-    <wrapped.groupId>javax.enterprise</wrapped.groupId>
-    <wrapped.artifactId>cdi-api</wrapped.artifactId>
-    <wrapped.version>${cdi.version}</wrapped.version>
-    <wrapped.mvn.version>${cdi.version}</wrapped.mvn.version>
-    <bundle.namespace>javax.enterprise.cdi-api</bundle.namespace>
+    <package.version>1.1</package.version>
+    <bundle.namespace>javax</bundle.namespace>
+    <bundle.version>${cdi.version}</bundle.version>
   </properties>
 
   <modelVersion>4.0.0</modelVersion>
