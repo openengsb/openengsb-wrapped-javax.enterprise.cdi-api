@@ -31,7 +31,7 @@
     <bundle.symbolicName>javax.enterprise.cdi-api</bundle.symbolicName>
     <package.version>1.1</package.version>
     <bundle.namespace>javax</bundle.namespace>
-    <bundle.version>${cdi.version}</bundle.version>
+    <bundle.version>${project.version}</bundle.version>
   </properties>
 
   <modelVersion>4.0.0</modelVersion>
